@@ -25,7 +25,7 @@ const Clients = () => {
           Discover the brands that trust our expertise. We partner with leading
           companies to deliver outstanding results and drive innovation.
         </p>
-        <MarqueeItem images={lowerMarquee} from={"-100%"} to={0} />
+        <MarqueeItem images={lowerMarquee} from={"-5%"} to={"50%"} />
       </div>
     </div>
   );

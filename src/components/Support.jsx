@@ -19,7 +19,7 @@ const Support = () => {
       <div className="flex flex-col py-8">
       <h1 className="mx-auto font-['FoundersGrotesk'] leading-[7vw] uppercase text-[7vw] text-gray-800">SUPPORTED & RECOGNIZED BY</h1>
       <p className="mx-auto text-[1.3vw] text-gray-600 mb-6">Showcasing the esteemed investors and partners who support and recognize our mission.</p>
-        <MarqueeItem images={upperMarquee} from={0} to={"-100%"} />
+        <MarqueeItem images={upperMarquee} from={0} to={"-50%"} />
       </div>
     </div>
   );

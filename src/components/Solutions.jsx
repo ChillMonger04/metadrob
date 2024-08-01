@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const Solutions = () => {
   return (
-    <div className="solutions-container" data-scroll data-scroll-speed="-0.2">
+    <div className="solutions-container">
       <div className=" intro-section w-full py-20 bg-[#7B66FF] rounded-3xl flex flex-col items-center justify-center text-white">
         <p className="text-xl font-bold font-['FoundersGrotesk'] text-[3vw] mb-7 text-white px-4 py-1 tracking-wide bg-gray-700 rounded-md">
           BESPOKE SOLUTIONS
