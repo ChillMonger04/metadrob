@@ -132,7 +132,7 @@ const Integration = () => {
           <p className="text-xl font-bold font-['FoundersGrotesk'] text-[3vw] mb-7 text-white px-4 py-1 tracking-wide bg-gray-700 rounded-md w-[14vw] text-center">
             INTEGRATE WITH EASE
           </p>
-          <p className="text-4xl font-semibold mb-2">E-commerce Integration</p>
+          <p className="text-4xl font-semibold mb-2">E-Commerce Integration</p>
           <p className="text-sm font-light leading-relaxed opacity-80 text-center">
             Transform your e-commerce store with a stunning 3D virtual retail
             experience. Imagine exploring your products in a vibrant, immersive

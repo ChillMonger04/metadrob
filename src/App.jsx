@@ -9,6 +9,8 @@ import CoreFeatures from "./components/CoreFeatures";
 import Reasons from "./components/Reasons";
 import Solutions from "./components/Solutions";
 import Integration from "./components/Integration";
+import Support from "./components/Support";
+import Clients from "./components/Clients";
 
 const App = () => {
   const scrollRef = useRef(null);
@@ -36,6 +38,8 @@ const App = () => {
       <Reasons />
       <Solutions />
       <Integration />
+      <Support />
+      <Clients />
     </div>
   );
 };
