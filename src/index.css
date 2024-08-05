@@ -157,7 +157,6 @@ body {
 
 .right-content {
   width: 100%;
-  border: 1px solid cyan;
 }
 
 .right-element {
@@ -183,19 +182,6 @@ body {
   max-height: 400px;
   position: relative;
   overflow: hidden;
-}
-
-.left-content img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-  opacity: 0;
-}
-
-.left-content img:first-child {
-  opacity: 1;
 }
 
 .left-container {
@@ -283,4 +269,25 @@ body {
     rgba(0, 0, 0, 1) 50%,
     rgba(0, 0, 0, 0)
   );
+}
+
+.readMore {
+  position: relative;
+  padding-bottom: 5px; 
+  transition: 0.3s ease-in-out;
+}
+
+.readMore::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 0.16vw;
+  background-color: #000;
+  transition: width 0.5s ease-in-out; /* Smooth width transition */
+}
+
+.readMore:hover::before {
+  width: 100%;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -40,7 +41,7 @@ const Reasons = () => {
   }, []);
 
   return (
-    <div className="w-full rounded-3xl bg-[#96EFFF] py-10 px-4 text-black -mt-[1vw]">
+    <div className="w-full rounded-3xl bg-[#96EFFF] py-10 px-4 text-black -mt-[3.5vw]">
       <div className="container" ref={container}>
         <div className="left-container">
           <div className="left-content flex flex-col items-center justify-center">
@@ -93,6 +94,7 @@ const Reasons = () => {
                 </p>
               </div>
             </div>
+
             <div className="reason-text">
               <div className="flex flex-col">
                 <h1 className="font-[FoundersGrotesk] text-[7vw] font-bold leading-none mb-1">

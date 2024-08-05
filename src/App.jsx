@@ -11,6 +11,9 @@ import Solutions from "./components/Solutions";
 import Integration from "./components/Integration";
 import Support from "./components/Support";
 import Clients from "./components/Clients";
+import News from "./components/News";
+import Footer from "./components/Footer";
+import FooterCards from "./components/FooterCards";
 
 const App = () => {
   const scrollRef = useRef(null);
@@ -40,6 +43,9 @@ const App = () => {
       <Integration />
       <Support />
       <Clients />
+      <News />
+      <FooterCards />
+      <Footer />
     </div>
   );
 };
